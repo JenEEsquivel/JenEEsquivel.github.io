@@ -7,10 +7,10 @@ body {
   padding: 0;
 }
 
-<!--comments-->
+<!--Best practices: magazineArticle said organize each by type if there are many for each selector. For example selector {categorize by style, box model aspects, positioning}-->
 
 header {
-    background: #009999 opacity 50% url(http://discover10.com/wp-content/uploads/2015/07/Free-Blue-Background.jpg) top right repeat;
+  background: #009999 opacity 50% url(http://discover10.com/wp-content/uploads/2015/07/Free-Blue-Background.jpg) top right repeat;
 
   font-family: Helvetica, serif;
   margin: auto;
