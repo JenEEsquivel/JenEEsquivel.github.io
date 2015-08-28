@@ -1,87 +1,85 @@
 body {
- font-family: Helvetica, serif;
- background-color: #290033;
- margin: auto;
- color: #80CCCC; 
-  background: #fff url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-31.jpg) repeat; 
-  padding: 0;
+ font-family: sans-serif;
+ background: url("images/dreamM.jpg") repeat; 
+ padding: 5em;
 }
 
-<!--Best practices: magazineArticle said organize each by type if there are many for each selector. For example selector {categorize by style, box model aspects, positioning}-->
-
 header {
-  background: #009999 opacity 50% url(http://discover10.com/wp-content/uploads/2015/07/Free-Blue-Background.jpg) top right repeat;
-
+  background: url("images/dreamM.jpg") repeat; 
+  padding: 5em;
   font-family: Helvetica, serif;
   margin: auto;
   text-align: center;
-  padding: 1em 0em 6em oem;
+  color: teal;
+  padding: 1em 0em 6em 0em;
 }
 
-p  { 
-  margin-top: 10px; 
-  text-align: center;
-  font-family: Helvetica;
-  border: 1px solid #555555;
-  background-color: #006B6B;
-  height: 120px; 
-}
-
-ol {
-  background-color: #ffffff;
-  font-color: #80CCCC;
-  text-align: auto;
-  margin: 0 auto;
-  padding: 0 auto;
-}
-
-.bio {
-  text-align: center;
+head {
+  background: url("images/dreamM.jpg") repeat; 
+  padding: 10em;
+  font-family: Helvetica, serif;
   margin: auto;
+  text-align: center;
+  color: teal;
+  padding: 1em 0em 6em 0em;
+}
+
+nav ul {
+  text-align: left;;
+  font-size: 1em;
+  padding: 1em 1em 1em 1em;
+}
+
+nav ul li {
+  text-align: left;
+  font-size: 1em
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Typography Stuff */
+p { 
+  color: teal;
+  margin: 0 0 1em 0;
+  text-align: left;
+}
+
+a { 
+  font-weight: bold; 
+  font-size: 
+  text-decoration: none; 
+  color: teal;
+  margin: 0 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: teal;
+  text-align: left;
+  margin: auto;
+  padding: 1em;
+}
+h1 {
+  text-align: center;
+  color: teal;
+}
+
+h2 {
+  color: teal;
 }
 
 footer {
-  background-color: #ffffff;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
-}
-
-@font-face {
-    font-family: 'kaushan_scriptregular';
-    src: url('fonts/kaushanscript-regular-webfont.eot');
-    src: url('fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
-         url('fonts/kaushanscript-regular-webfont.woff') format('woff'),
-         url('fonts/kaushanscript-regular-webfont.ttf') format('truetype'),
-         url('fonts/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
-    font-weight: normal;
-    font-style: cursive;
-
-}
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'kaushan_scriptregular', cursive;
-  text-align: center;
-  margin: auto;
-  text-align: center;
-
-}
-
-h1 {
-  font-size: 4em;
-  font-color: #006B6B;
 }
 
 #navigation {
   float: left;
-  padding-left: 
   width: 300px;
   height: 0;
   text-decoration: none;
-  font-family: 'kaushan_scriptregular', cursive;
   text-align: center;
   margin: 0 auto;
+}
 
 #navigation li {
   list-style:  none;
@@ -94,49 +92,41 @@ h1 {
 }
 
 .navigation {
-background-color: white;
+  background-color: white;
   text-align: center;
   list-style: none;
 }
 
-.buttontest
-.btn {
-  allign: center;
-  border-radius: 9px;
-  box-shadow: 5px 4px 3px #666666;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 30px;
-  background: #3498db;
-  padding: 10px 20px 10px 20px;
-  border: solid #1f628d 2px;
-  text-decoration: none;
+/* Bio */
+.bio {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2em;
 }
 
-.btn:hover {
-  background: #3cb0fd;
-  text-decoration: none;
-  text-align: center;
-  padding: 3px 3px 3px 3px;
-  margin: padding: 3px 3px 3px 3px;
-  border: 1px 1px 1px 1px;
+.portfolio {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2em;
+}
 
+.socialMedia {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2em;
+}
+
+.resume header {
+  background-color: #FFFFCC;
+  padding: 2em;
+}
+
+.address {
+  text-align: center;
+  color: teal;
+}
+
+.socialMedia {
+  text-align: center;
 }
 
 .wrapper {
-  background: #009999 opacity 50% url(http://discover10.com/wp-content/uploads/2015/07/Free-Blue-Background.jpg) top right repeat;
-}  
-
-
-a:link { 
-  font-weight: bold; 
-  text-decoration: none; 
-  font-color: teal;
-  }
-
-a:visited { 
-  font-weight: bold; 
-  text-decoration: none; 
-  color: #CC00FF
-;
-  }
+  background-color: white;
+}

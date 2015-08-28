@@ -1,0 +1,153 @@
+body {
+ font-family: Helvetica, serif;
+ margin: auto;
+ background: #fff url(http://thumbs.dreamstime.com/z/colorful-rainbow-triangular-background-doodle-mandala-floral-ornament-your-web-design-31760267.jpg) repeat; 
+ padding: 10em;
+}
+
+<!--Best practices: magazineArticle said organize each by type if there are many for each selector. For example selector {categorize by style, box model aspects, positioning}-->
+
+header {
+  background: #009999 opacity 50% url(http://thumbs.dreamstime.com/z/colorful-rainbow-triangular-background-doodle-mandala-floral-ornament-your-web-design-31760267.jpg top right) repeat;
+  text-shadow: .06em .06em .12em black;
+  font-family: Helvetica, serif;
+  margin: auto;
+  text-align: center;
+  padding: 1em 0em 6em 0em;
+}
+
+nav ul {
+  padding: 1em 1em 1em 1em;
+
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+nav ul li a {
+
+}
+
+p  { 
+  margin-top: 10px; 
+  text-align: center;
+  font-family: Helvetica;
+  border: 1px solid #555555;
+  height: 120px; 
+}
+
+ol {
+  background-color: #ffffff;
+  font-color: #80CCCC;
+  text-align: auto;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.bio {
+  text-align: center;
+  margin: auto;
+}
+
+footer {
+
+  text-align: left;
+  text-decoration: none;
+}
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('fonts/kaushanscript-regular-webfont.eot');
+    src: url('fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('fonts/kaushanscript-regular-webfont.woff') format('woff'),
+         url('fonts/kaushanscript-regular-webfont.ttf') format('truetype'),
+         url('fonts/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: cursive;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'kaushan_scriptregular', cursive;
+  text-align: center;
+  margin: auto;
+  
+}
+
+h1 {
+  font-size: 4em;
+  font-color: #006B6B;
+}
+
+#navigation {
+  float: left;
+  padding-left: 
+  width: 300px;
+  height: 0;
+  text-decoration: none;
+  font-family: 'kaushan_scriptregular', cursive;
+  text-align: center;
+  margin: 0 auto;
+
+#navigation li {
+  list-style:  none;
+ }
+
+.crop img {
+  height: 200px;
+  width: auto;
+  overflow: hidden;
+}
+
+.navigation {
+background-color: white;
+  text-align: center;
+  list-style: none;
+}
+
+.buttontest
+.btn {
+  allign: center;
+  border-radius: 9px;
+  box-shadow: 5px 4px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  text-align: center;
+  padding: 3px 3px 3px 3px;
+  margin: padding: 3px 3px 3px 3px;
+  border: 1px 1px 1px 1px;
+
+}
+
+.wrapper {
+  background: #009999 opacity 50% url(http://discover10.com/wp-content/uploads/2015/07/Free-Blue-Background.jpg) top right repeat;
+}  
+
+
+a:link { 
+  font-weight: bold; 
+  text-decoration: none; 
+  font-color: teal;
+  }
+
+a:visited { 
+  font-weight: bold; 
+  text-decoration: none; 
+  color: #CC00FF
+;
+  }
