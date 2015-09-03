@@ -29,6 +29,11 @@ head {
   padding: 1em 1em 1em 1em;
 }
 
+footer {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2em;
+}
+
 nav ul {
   text-align: left;
   display: inline-block;
@@ -98,6 +103,7 @@ footer {
   text-decoration: none;
   text-align: center;
   margin: 0 auto;
+  padding: 2em 0 0 0;
 }
 
 #navigation li {
