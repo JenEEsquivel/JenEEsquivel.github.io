@@ -4,6 +4,7 @@ html{
 
 body {
  /* font-size: 62.5%; /* 1em = 10px*/
+ font-size: 1em;
  font-family: sans-serif;
  background: url("images/dreamM.jpg") repeat; 
  padding: 3em;
@@ -32,15 +33,18 @@ head {
 footer {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 2em;
+  font-size: 1.5em;
 }
 
 nav ul {
+  font-size: 1.3em;
   text-align: left;
   display: inline-block;
-  padding: 1em 1em 1em 1em;
+  padding: 1.2em 1.2em 1.2em 1.2em;
 }
 
 nav ul li {
+  font-size: 1.3em;
   text-align: left;
   text-decoration: none;
   display: inline-block;
@@ -80,9 +84,37 @@ h1 {
   text-align: center;
   margin: auto;
   color: teal;
-  
 }
-h2, h3, h4, h5, h6 {
+
+h2 {
+ font-family: 'kaushan_scriptregular', cursive, serif;
+  font-size: 2.5em;
+  text-align: left;
+  margin: auto;
+  color: teal;
+  padding: 1em;
+}
+
+h3 {
+ font-family: 'kaushan_scriptregular', cursive, serif;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  color: teal;
+  padding: 0 0 0 0;
+}
+
+h4 {
+ font-family: 'kaushan_scriptregular', cursive, serif;
+  font-size: 1.3em;
+  text-align: center;
+  margin: auto;
+  color: teal;
+}
+
+h5, h6 {
+  font-family: 'kaushan_scriptregular', cursive, serif;
+  font-size: 1.5em;
   color: teal;
   text-align: left;
   margin: auto;
@@ -144,11 +176,6 @@ header {
   padding: 2em;
 }
 
-.address {
-  text-align: center;
-  color: teal;
-}
-
 .socialMedia {
   text-align: center;
 }
@@ -158,11 +185,16 @@ header {
 
 }
 
+.pdf {
+  padding: 1em;
+}
+
 .address {
   font-family: 'kaushan_scriptregular', cursive, serif;
-  font-size: 2em;
+  font-size: 1em;
   text-align: center;
   color: teal;
+  padding: 1em;
 
 }
 
