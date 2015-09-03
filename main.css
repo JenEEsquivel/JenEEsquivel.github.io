@@ -55,6 +55,7 @@ p {
   color: teal;
   margin: 0 0 2em 0;
   text-align: left;
+  display: inline-block;
 }
 
 a { 
