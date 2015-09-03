@@ -1,8 +1,0 @@
-$.fn.blueIt= function() {
-    this.css( "color", "teal" );
-    return this;
-} 
-$( "a" ).blueit().addClass( "blueIt" );
-
-/*Will this turn links teal?  Should.  Use this without (not inside() ) rather than (this) because blue function is part of same object .css */
-
