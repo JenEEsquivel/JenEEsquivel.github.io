@@ -12,7 +12,6 @@ body {
 }
 
 header {
-
   padding: 3em 3em 3em 3em;
   font-family: Helvetica, serif;
   margin: auto;
@@ -27,7 +26,6 @@ head {
   margin: auto;
   text-align: center;
   color: teal;
-  padding: 1em 1em 1em 1em;
 }
 
 footer {
@@ -35,36 +33,36 @@ footer {
   padding: 2em;
   font-size: 1.5em;
 }
-
 nav ul {
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-align: left;
   display: inline-block;
-  padding: 1.2em 1.2em 1.2em 1.2em;
+  padding: .5em .5em .5em .5em;
+  margin: .5em .5em .5em .5em;
 }
-
 nav ul li {
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-align: left;
   text-decoration: none;
   display: inline-block;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
-
 /* Typography Stuff */
 p { 
+  font-weight: bold;
   color: teal;
-  margin: 0 0 2em 0;
+  margin: 1em 1em 1em 1em;
   text-align: left;
   display: inline-block;
 }
-
 a { 
+
   font-weight: bold; 
   text-decoration: underline; 
   color: teal;
-  margin: 0 5px;
+  margin: 1em 1em 1em 1em;
 }
-
 @font-face {
     font-family: 'kaushan_scriptregular';
     src: url('fonts/kaushanscript-regular-webfont.eot');
@@ -75,27 +73,22 @@ a {
          url('fonts/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
     font-weight: normal;
     font-style: cursive;
-
 }
-
-
 h1 {
   font-family: 'kaushan_scriptregular', cursive, serif;
-  font-size: 3em;
+  font-size: 3.5em;
   text-align: center;
   margin: auto;
   color: teal;
 }
-
 h2 {
  font-family: 'kaushan_scriptregular', cursive, serif;
   font-size: 2.5em;
   text-align: left;
   margin: auto;
   color: teal;
-  padding: 1em;
-}
 
+}
 h3 {
  font-family: 'kaushan_scriptregular', cursive, serif;
   font-size: 2em;
@@ -104,7 +97,6 @@ h3 {
   color: teal;
   padding: 0 0 0 0;
 }
-
 h4 {
  font-family: 'kaushan_scriptregular', cursive, serif;
   font-size: 1.3em;
@@ -112,17 +104,14 @@ h4 {
   margin: auto;
   color: teal;
 }
-
 h5, h6 {
   font-family: 'kaushan_scriptregular', cursive, serif;
-  font-size: 1.5em;
+  font-size: .5em;
   color: teal;
   text-align: left;
   margin: auto;
   padding: 1em;
 }
-
-
 footer {
   text-align: center;
   text-decoration: underline;
@@ -138,58 +127,43 @@ footer {
   margin: 0 auto;
   padding: 2em 0 0 0;
 }
-
 #navigation li {
   list-style:  none;
  }
-
 .crop img {
   height: 200px;
   width: auto;
   overflow: hidden;
 }
-
 .navigation {
   background-color: white;
   text-align: center;
   list-style: none;
 }
-
 /* Bio */
 .bio {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 2em;
 }
-
 .portfolio {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 2em;
 }
-
-.socialMedia {
+.volunteer {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 2em;
 }
-
 header {
   /*background-color: #FFFFCC;*/
   background: url("images/dreamM.jpg") repeat; 
   padding: 2em;
 }
 
-.socialMedia {
-  text-align: center;
-}
-
-.fofww {
-  padding: 1em;
-
-}
-
 .pdf {
   padding: 1em;
-
 }
+
+.cage p { color: transparent; !important; }
 
 .address {
   font-family: 'kaushan_scriptregular', cursive, serif;
@@ -197,7 +171,10 @@ header {
   text-align: center;
   color: teal;
   padding: 1em;
+}
 
+.volunteer { 
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .wrapper {
